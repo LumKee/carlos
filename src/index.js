@@ -1,12 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import { hydrate } from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+
 import App from './App';
+import ThemeProviderOverride from './ui/ThemeProviderOverride'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+hydrate(
+	<ThemeProviderOverride>
+		<BrowserRouter>
+			<App />
+		</BrowserRouter>
+	</ThemeProviderOverride>,
+
+	document.getElementById('root')
 );
-
