@@ -5,7 +5,6 @@ import {
     ThemeProvider as MUIThemeProvider
 } from '@material-ui/core/styles';
 
-// TODO: Figure out responsiveFontSizes
 const theme = responsiveFontSizes(createMuiTheme({
     typography: {
         fontFamily: 'Work Sans, sans-serif',
