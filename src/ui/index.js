@@ -5,7 +5,7 @@ export {
 	findBreakpointAtWidth,
 	findBreakpointsForWidths,
 	Media
-} from './theme/ThemeProvider';
+} from './src/theme/ThemeProvider';
 
 export {CssBaseline, Container} from '@material-ui/core';
 export {Link} from '@material-ui/core';

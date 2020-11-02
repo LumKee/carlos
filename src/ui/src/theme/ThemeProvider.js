@@ -72,7 +72,7 @@ const theme = responsiveFontSizes(createMuiTheme({
             subtitle1: {
                 fontFamily: 'Work Sans, sans-serif',
                 fontStyle: 'normal',
-                fontWeight: '800',
+                fontWeight: '600',
                 fontSize: '16px',
                 letterSpacing: '0.15px'
             },
@@ -157,19 +157,19 @@ const theme = responsiveFontSizes(createMuiTheme({
         },
         primary: {
             light: '#7D6A6A',
-            main: '#271F20',
+            main: '#1D41BF',
             dark: '#1C0F13',
             contrastText: '#ffffff'
         },
         secondary: {
             light: '#B5506E',
-            main: '#753447',
+            main: '#F9E63A',
             dark: '#692E40',
             contrastText: '#ffffff'
         },
         error: {
             light: '#F6AAA1',
-            main: '#f44336',
+            main: '#ED6126',
             dark: '#A51831',
             contrastText: '#ffffff'
         },

@@ -3,7 +3,10 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import { Helmet } from 'react-helmet';
 
+import Header from '../components/Header'
 import MenuRow from '../components/MenuRow';
+import BannerSection from '../components/BannerSection';
+import CategoriesCards from '../components/CategoriesCards';
 
 const HomePage = () => (
     <>
@@ -24,7 +27,10 @@ const HomePage = () => (
         </Helmet>
 
         <Container>
+            <Header />
             <MenuRow />
+            <BannerSection />
+            <CategoriesCards />
         </Container>
     </>
 );

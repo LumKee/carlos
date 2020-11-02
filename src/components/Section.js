@@ -6,74 +6,56 @@ const SMALL_MAX_WIDTH = 960;
 const MEDIUM_MAX_WIDTH = 1280;
 const LARGE_MAX_WIDTH = 1600;
 
-const INNER_CONTAINER_PADDING = 24;
-const INNER_CONTAINER_PADDING_SMALL = 16;
-
 const SECTION_WIDTH_CONFIG = {
     medium: {
         xs: {
             maxWidth: SMALL_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING_SMALL
         },
         sm: {
             maxWidth: SMALL_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         },
         md: {
             maxWidth: SMALL_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         },
         lg: {
             maxWidth: SMALL_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         },
         xl: {
             maxWidth: SMALL_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         }
     },
     regular: {
         xs: {
             maxWidth: SMALL_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING_SMALL
         },
         sm: {
             maxWidth: SMALL_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         },
         md: {
             maxWidth: MEDIUM_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         },
         lg: {
             maxWidth: MEDIUM_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         },
         xl: {
             maxWidth: MEDIUM_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         }
     },
     large: {
         xs: {
             maxWidth: MEDIUM_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING_SMALL
         },
         sm: {
             maxWidth: MEDIUM_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         },
         md: {
             maxWidth: LARGE_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         },
         lg: {
             maxWidth: LARGE_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         },
         xl: {
             maxWidth: LARGE_MAX_WIDTH,
-            padding: INNER_CONTAINER_PADDING
         }
     }
 };
@@ -122,7 +104,6 @@ const useStyles = makeStyles(theme => ({
         height: '100%',
         marginLeft: 'auto',
         marginRight: 'auto',
-        padding: `0 ${theme.spacing(3)}px`,
         [theme.breakpoints.down('xs')]: {
             padding: `0 ${theme.spacing(2)}px`
         }

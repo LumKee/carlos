@@ -3,20 +3,25 @@ import { Link } from 'react-router-dom';
 
 import {
 	Grid,
-	makeStyles
+	makeStyles,
 } from '@material-ui/core';
 
 import Typography from './../ui/src/typography/Typography'
 
 import Section from './Section'
-const useStyles = makeStyles(() => ({
+
+const useStyles = makeStyles((theme) => ({
 	container: {
-		height: 110
+		height: 'auto'
 	},
 	logo: {
 		margin: '10px 0',
 		width: 'auto',
 		height: 34
+	},
+	links: {
+		color: theme.palette.common.black,
+		textDecoration: 'none'
 	}
 }));
 
@@ -24,29 +29,12 @@ const MenuRow = () => {
 	const classes = useStyles();
 
 	return (
-		<Section disablePadding size="large">
+		<Section>
 			<Grid className={classes.container} container>
 				<Grid
 					className={classes.square}
 					item
-					xs={2}
-					container
-					alignItems="center"
-					justify="flex-start"
-				>
-					<Link to="/home">
-						<img
-							className={classes.logo}
-							alt="logo"
-							src="/img/carlos.svg"
-						/>
-					</Link>
-				</Grid>
-
-				<Grid
-					className={classes.square}
-					item
-					xs={8}
+					xs={12}
 					container
 				>
 					<Grid
@@ -54,12 +42,12 @@ const MenuRow = () => {
 						xs
 						container
 						spacing={2}
-						justify="center"
+						justify="flex-start"
 						alignItems="center"
 					>
 						<Grid item>
 							<Link to="/home">
-								<Typography variant="bodyBold">
+								<Typography className={classes.links} variant="subtitle1">
 									Carrelages
                             	</Typography>
 							</Link>
@@ -67,7 +55,7 @@ const MenuRow = () => {
 
 						<Grid item>
 							<Link to="/home">
-								<Typography variant="bodyBold">
+								<Typography className={classes.links} variant="subtitle1">
 									Prestations
                             	</Typography>
 							</Link>
@@ -75,7 +63,7 @@ const MenuRow = () => {
 
 						<Grid item>
 							<Link to="/home">
-								<Typography variant="bodyBold">
+								<Typography className={classes.links} variant="subtitle1">
 									Promotions
                             	</Typography>
 							</Link>
@@ -83,7 +71,7 @@ const MenuRow = () => {
 
 						<Grid item>
 							<Link to="/home">
-								<Typography variant="bodyBold">
+								<Typography className={classes.links} variant="subtitle1">
 									A propos
                             	</Typography>
 							</Link>
@@ -91,28 +79,11 @@ const MenuRow = () => {
 
 						<Grid item>
 							<Link to="/home">
-								<Typography variant="bodyBold">
+								<Typography className={classes.links} variant="subtitle1">
 									Contact
                             	</Typography>
 							</Link>
 						</Grid>
-					</Grid>
-				</Grid>
-
-				<Grid
-					className={classes.square}
-					item
-					xs={2}
-					container
-					justify="flex-end"
-					alignItems="center"
-				>
-					<Grid item>
-						<Link to="/home">
-							<Typography variant="bodyBold">
-								Icon
-                            </Typography>
-						</Link>
 					</Grid>
 				</Grid>
 			</Grid>
