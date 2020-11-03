@@ -8,13 +8,11 @@ import {
 
 import HomePage from './pages/HomePage';
 
+ReactGA.initialize('G-X0D0H5VV93');
+ReactGA.pageview('/home');
+
 const App = () => {
 
-	function initializeReactGA() {
-		ReactGA.initialize('G-X0D0H5VV93');
-		ReactGA.pageview('/home');
-	}
-	
 	return (
 		<>
 			<Switch>
