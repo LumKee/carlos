@@ -1,14 +1,18 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import {
 	Switch,
 	Route,
 	Redirect
 } from 'react-router-dom';
 
-
 import HomePage from './pages/HomePage';
 
+ReactGA.initialize('G-X0D0H5VV93');
+ReactGA.pageview('/home');
+
 const App = () => {
+
 	return (
 		<>
 			<Switch>
