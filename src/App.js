@@ -9,7 +9,7 @@ import {
 import HomePage from './pages/HomePage';
 
 const tagManagerArgs = {
-	gtmId: 'GTM-TRDPBB'
+	gtmId: 'GTM-TRDPBBJ'
 };
 TagManager.initialize(tagManagerArgs)
 
