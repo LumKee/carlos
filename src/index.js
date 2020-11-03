@@ -3,14 +3,14 @@ import { hydrate } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
 import App from './App';
-import ThemeProviderOverride from './ui/ThemeProviderOverride'
+import ThemeProvider from './ui/src/theme/ThemeProvider'
 
 hydrate(
-	<ThemeProviderOverride>
+	<ThemeProvider>
 		<BrowserRouter>
 			<App />
 		</BrowserRouter>
-	</ThemeProviderOverride>,
+	</ThemeProvider>,
 
 	document.getElementById('root')
 );

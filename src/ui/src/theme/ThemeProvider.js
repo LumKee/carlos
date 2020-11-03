@@ -9,35 +9,35 @@ const theme = responsiveFontSizes(createMuiTheme({
     typography: {
         fontFamily: 'Work Sans, sans-serif',
         h1: {
-            fontFamily: 'Garamond, serif',
+            fontFamily: 'Poppins, sans-serif',
             fontStyle: 'normal',
             fontWeight: 400,
             fontSize: '60px',
             letterSpacing: '1.5px'
         },
         h2: {
-            fontFamily: 'Work Sans, sans-serif',
+            fontFamily: 'Poppins, sans-serif',
             fontStyle: 'normal',
             fontWeight: '400',
             fontSize: '60px',
             letterSpacing: '0px'
         },
         h3: {
-            fontFamily: 'Work Sans, serif',
+            fontFamily: 'Poppins, sans-serif',
             fontStyle: 'normal',
             fontWeight: '400',
             fontSize: '48px',
             letterSpacing: '0px'
         },
         h4: {
-            fontFamily: 'Garamond, serif',
+            fontFamily: 'Poppins, sans-serif',
             fontStyle: 'normal',
             fontWeight: '800',
             fontSize: '34px',
             letterSpacing: '1.5px'
         },
         h5: {
-            fontFamily: 'Work Sans, sans-serif',
+            fontFamily: 'Poppins, sans-serif',
             fontStyle: 'normal',
             fontWeight: '600',
             fontSize: '24px',
@@ -52,13 +52,13 @@ const theme = responsiveFontSizes(createMuiTheme({
         },
 
         body1: {
-            fontFamily: 'Work Sans, sans-serif',
+            fontFamily: 'Ubuntu, sans-serif',
             fontStyle: 'normal',
             fontWeight: 'normal',
             fontSize: '16px'
         },
         body2: {
-            fontFamily: 'Work Sans, sans-serif',
+            fontFamily: 'Ubuntu, sans-serif',
             fontStyle: 'normal',
             fontWeight: 'normal',
             fontSize: '16px'
@@ -72,7 +72,7 @@ const theme = responsiveFontSizes(createMuiTheme({
             subtitle1: {
                 fontFamily: 'Work Sans, sans-serif',
                 fontStyle: 'normal',
-                fontWeight: '800',
+                fontWeight: '600',
                 fontSize: '16px',
                 letterSpacing: '0.15px'
             },
@@ -157,25 +157,25 @@ const theme = responsiveFontSizes(createMuiTheme({
         },
         primary: {
             light: '#7D6A6A',
-            main: '#271F20',
+            main: '#1D41BF',
             dark: '#1C0F13',
             contrastText: '#ffffff'
         },
         secondary: {
             light: '#B5506E',
-            main: '#753447',
+            main: '#F9E63A',
             dark: '#692E40',
             contrastText: '#ffffff'
         },
         error: {
             light: '#F6AAA1',
-            main: '#f44336',
+            main: '#ED6126',
             dark: '#A51831',
             contrastText: '#ffffff'
         },
         warning: {
             light: '#F3CF93',
-            main: '#DCA45A',
+            main: '#ED6126',
             dark: '#BA7730',
             contrastText: '#ffffff'
         },

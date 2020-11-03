@@ -1,14 +1,18 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
 
+import Container from '@material-ui/core/Container';
 import { Helmet } from 'react-helmet';
+
+import Header from '../components/Header'
+import MenuRow from '../components/MenuRow';
+import BannerSection from '../components/BannerSection';
+import CategoriesCards from '../components/CategoriesCards';
+import DescriptionSection from '../components/DescriptionSection';
 
 const HomePage = () => (
     <>
         <Helmet>
-            <title>Carlos : votre spécialste du carrelage</title>
+            <title>Carlos : votre spécialiste du carrelage</title>
             <meta
                 name="description"
                 content="Carlos : votre spécialiste du carrelage vous propose une large gamme de carrelage haut de gamme. Parfait pour submliemer vos intérieurs."
@@ -24,14 +28,11 @@ const HomePage = () => (
         </Helmet>
 
         <Container>
-            <Grid container direction="column">
-                <Grid item>
-                    <Typography variant="h2">Carlos votre spécialiste du carrelage</Typography>
-                </Grid>
-                <Grid item>
-                    <Typography variant="subtitle1">Carlos votre spécialiste du carrelage</Typography>
-                </Grid>
-            </Grid>
+            <Header />
+            <MenuRow />
+            <BannerSection />
+            <CategoriesCards />
+            <DescriptionSection />
         </Container>
     </>
 );
