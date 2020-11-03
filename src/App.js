@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactGA from 'react-ga';
+import TagManager from 'react-gtm-module'
 import {
 	Switch,
 	Route,
@@ -8,8 +8,10 @@ import {
 
 import HomePage from './pages/HomePage';
 
-ReactGA.initialize('G-X0D0H5VV93');
-ReactGA.pageview('/home');
+const tagManagerArgs = {
+	gtmId: 'GTM-TRDPBB'
+};
+TagManager.initialize(tagManagerArgs)
 
 const App = () => {
 
