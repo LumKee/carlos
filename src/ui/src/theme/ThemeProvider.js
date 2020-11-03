@@ -9,35 +9,35 @@ const theme = responsiveFontSizes(createMuiTheme({
     typography: {
         fontFamily: 'Work Sans, sans-serif',
         h1: {
-            fontFamily: 'Garamond, serif',
+            fontFamily: 'Poppins, sans-serif',
             fontStyle: 'normal',
             fontWeight: 400,
             fontSize: '60px',
             letterSpacing: '1.5px'
         },
         h2: {
-            fontFamily: 'Work Sans, sans-serif',
+            fontFamily: 'Poppins, sans-serif',
             fontStyle: 'normal',
             fontWeight: '400',
             fontSize: '60px',
             letterSpacing: '0px'
         },
         h3: {
-            fontFamily: 'Work Sans, serif',
+            fontFamily: 'Poppins, sans-serif',
             fontStyle: 'normal',
             fontWeight: '400',
             fontSize: '48px',
             letterSpacing: '0px'
         },
         h4: {
-            fontFamily: 'Garamond, serif',
+            fontFamily: 'Poppins, sans-serif',
             fontStyle: 'normal',
             fontWeight: '800',
             fontSize: '34px',
             letterSpacing: '1.5px'
         },
         h5: {
-            fontFamily: 'Work Sans, sans-serif',
+            fontFamily: 'Poppins, sans-serif',
             fontStyle: 'normal',
             fontWeight: '600',
             fontSize: '24px',
@@ -52,13 +52,13 @@ const theme = responsiveFontSizes(createMuiTheme({
         },
 
         body1: {
-            fontFamily: 'Work Sans, sans-serif',
+            fontFamily: 'Ubuntu, sans-serif',
             fontStyle: 'normal',
             fontWeight: 'normal',
             fontSize: '16px'
         },
         body2: {
-            fontFamily: 'Work Sans, sans-serif',
+            fontFamily: 'Ubuntu, sans-serif',
             fontStyle: 'normal',
             fontWeight: 'normal',
             fontSize: '16px'
@@ -175,7 +175,7 @@ const theme = responsiveFontSizes(createMuiTheme({
         },
         warning: {
             light: '#F3CF93',
-            main: '#DCA45A',
+            main: '#ED6126',
             dark: '#BA7730',
             contrastText: '#ffffff'
         },

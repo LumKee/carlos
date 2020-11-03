@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
         background: theme.palette.common.black,
         color: theme.palette.secondary.main,
         padding: '8px 48px 8px 48px',
-        fontFamily: 'Poppins, sans-serif'
+       
     },
     titleContainer: {
         position: 'relative',
@@ -46,9 +46,9 @@ const useStyles = makeStyles(theme => ({
         fontFamily: 'Poppins SemiBold, sans-serif',
         color: theme.palette.common.black,
         background: theme.palette.secondary.main,
-        borderRadius: '8px',
+        borderRadius: '4px',
         boxShadow: 'none',
-        padding: '8px 64px',
+        padding: '8px 48px',
         fontSize: '16px',
         letterSpacing: '0.5px',
         [theme.breakpoints.down('sm')]: {

@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import MenuRow from '../components/MenuRow';
 import BannerSection from '../components/BannerSection';
 import CategoriesCards from '../components/CategoriesCards';
+import DescriptionSection from '../components/DescriptionSection';
 
 const HomePage = () => (
     <>
@@ -31,6 +32,7 @@ const HomePage = () => (
             <MenuRow />
             <BannerSection />
             <CategoriesCards />
+            <DescriptionSection />
         </Container>
     </>
 );

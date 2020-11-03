@@ -101,7 +101,7 @@ const Header = () => {
                         xs
                         container
                         spacing={1}
-                        justify="center"
+                        justify="flex-end"
                         alignItems="center"
                         to="/home"
                     >

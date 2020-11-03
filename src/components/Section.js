@@ -104,9 +104,6 @@ const useStyles = makeStyles(theme => ({
         height: '100%',
         marginLeft: 'auto',
         marginRight: 'auto',
-        [theme.breakpoints.down('xs')]: {
-            padding: `0 ${theme.spacing(2)}px`
-        }
     },
 
     // Sizes:
