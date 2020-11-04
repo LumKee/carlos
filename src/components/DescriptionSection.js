@@ -5,7 +5,7 @@ import {
 } from '@material-ui/core';
 
 import Typography from './../ui/src/typography/Typography'
-import Section from './Section'
+import Section from '../ui/src/layout/Section'
 
 const DescriptionSection = () => {
 
@@ -14,6 +14,7 @@ const DescriptionSection = () => {
             <Grid
                 container
                 alignItems="center"
+                style={{ paddinTop: '0px' }}
             >
                 <Grid item>
                     <Typography variant="body1">
