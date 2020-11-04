@@ -62,7 +62,7 @@ const Header = () => {
                     alignItems="center"
                     justify="flex-start"
                 >
-                    <Link to="/home">
+                    <Link to="/accueil">
                         <img
                             className={classes.logo}
                             alt="logo"
