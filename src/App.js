@@ -1,5 +1,6 @@
 import React from 'react';
 import TagManager from 'react-gtm-module'
+
 import {
 	Switch,
 	Route,
@@ -19,7 +20,6 @@ const tagManagerArgs = {
 TagManager.initialize(tagManagerArgs)
 
 const App = () => {
-
 	return (
 		<>
 			<Switch>

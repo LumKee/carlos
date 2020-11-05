@@ -5,8 +5,8 @@ import {
     makeStyles
 } from '@material-ui/core';
 
-import Typography from './../ui/src/typography/Typography'
-import Section from '../ui/src/layout/Section'
+import Typography from './../ui/src/typography/Typography';
+import Section from '../ui/src/layout/Section';
 
 const useStyles = makeStyles(theme => ({
     container: {

@@ -9,6 +9,8 @@ import BannerSection from '../components/BannerSection';
 import CategoriesCards from '../components/CategoriesCards';
 import DescriptionSection from '../components/DescriptionSection';
 import Layout from '../ui/src/layout/Layout';
+import PromotionsSection from '../components/PromotionsSections';
+import ProductSection from '../components/ProductSection';
 
 const HomePage = () => (
     <>
@@ -33,6 +35,8 @@ const HomePage = () => (
                 <BannerSection />
                 <CategoriesCards />
                 <DescriptionSection />
+                <ProductSection />
+                <PromotionsSection />
             </Grid>
         </Layout>
     </>

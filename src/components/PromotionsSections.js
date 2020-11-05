@@ -1,10 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import {
     Grid,
-    Button,
-    useTheme,
     makeStyles
 } from '@material-ui/core';
 
@@ -13,29 +10,28 @@ import Typography from '../ui/src/typography/Typography';
 
 const useStyles = makeStyles(theme => ({
     container: {
-        height: 400,
-        [theme.breakpoints.down('sm')]: {
-            height: 330
-        },
+        height: 250,
         width: '100%',
-        background: 'url(/img/banner.jpg)',
+        background: 'url(/img/promotions-bg.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
     },
     contentContainer: {
         height: '100%',
-        padding: theme.spacing(3),
+        padding: theme.spacing(4),
+        [theme.breakpoints.down('sm')]: {
+            padding: theme.spacing(2),
+        },
     },
     title: {
-        background: theme.palette.common.black,
-        color: theme.palette.secondary.main,
+        background: '#4D4D4D',
+        color: theme.palette.common.white,
         padding: '8px 48px 8px 48px',
 
     },
     titleContainer: {
-        position: 'relative',
-        left: '15%'
+        width: 'auto',
     },
     moveLeft: {
         position: 'relative',
@@ -64,56 +60,38 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
-const BannerSection = () => {
+const PromotionsSection = () => {
     const classes = useStyles();
-    const theme = useTheme();
-    const isXs = theme.breakpoints.down('xs');
 
     return (
         <Section className={classes.container}>
             <Grid
                 className={classes.contentContainer}
                 container
-                justify="center"
-                alignItems={isXs ? 'center' : 'flex-start'}
+                alignItems="flex-start"
                 direction="column"
-                spacing={8}
             >
                 <Grid
                     className={classes.titleContainer}
                     container
                     justify="flex-start"
-                    item
                 >
                     <Grid item>
                         <Grid>
-                            <Typography className={classes.title} variant="h4" component="h1" align={isXs ? 'center' : 'left'}>
-                                "Promotions sur nos
+                            <Typography className={classes.title} variant="h4">
+                                "Profitez de nos meilleurs
                             </Typography>
                         </Grid>
                         <Grid className={classes.moveLeft}>
-                            <Typography className={classes.title} variant="h4" component="h1" align={isXs ? 'center' : 'left'}>
-                                carrelages petite sirène"
+                            <Typography className={classes.title} variant="h4">
+                                promotions"
                             </Typography>
                         </Grid>
                     </Grid>
-                </Grid>
-
-                <Grid item>
-                    <Button
-                        className={classes.button}
-                        component={Link}
-                        to="/promotions"
-                        variant="contained"
-                        align="center"
-                        size="large"
-                    >
-                        En savoir plus
-                    </Button>
                 </Grid>
             </Grid>
         </Section>
     );
 };
 
-export default BannerSection;
+export default PromotionsSection;

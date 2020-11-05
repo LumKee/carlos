@@ -1,0 +1,19 @@
+Gérer l'index.html (meta etc...)  
+Finir la HomePage
+Ajouter les cards sur la page Product
+Ajouter les filtre sur la page Product
+Gérer l'animation du système d'ajout au panier
+
+Responsive à gérer :
+    MobileHeader
+    MobileFooter
+    Bannière (text qui dépasse du container sur mobile et bannière pas alignée sur la grille en md)
+    Footer (ajouter du spacing entre les élements)
+
+Détails graphiques à régler : 
+    Tester le logo avec le slogan
+    Ajouter l'icon search sur la barre de recherche
+    Réduire le padding entre le topheader et le menu
+    Mettre les bonnes guillemets sur le texte de la bannière
+    Ajouter un spacing entre les deux cards de catégories
+    Gérer la height du container des textes sur les cards de catégories (déborde sur le contenu en dessous => cuase des soucis au hover)

@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+
 import {
     createMuiTheme,
     responsiveFontSizes,
@@ -44,7 +45,7 @@ const theme = responsiveFontSizes(createMuiTheme({
             letterSpacing: '0px'
         },
         h6: {
-            fontFamily: 'Work Sans, sans-serif',
+            fontFamily: 'Poppins, sans-serif',
             fontStyle: 'normal',
             fontWeight: '600',
             fontSize: '20px',
@@ -225,19 +226,7 @@ const theme = responsiveFontSizes(createMuiTheme({
     }
 }));
 
-
-export const SERVER_SIDE_JSS_ID = 'jss-ssr';
-
-const ThemeProvider = ({ children, serverSide, onlyMatch }) => {
-    useEffect(() => {
-        if (!serverSide) {
-            const jssStyles = document.querySelector(`#${SERVER_SIDE_JSS_ID}`);
-
-            if (jssStyles) {
-                jssStyles.parentElement.removeChild(jssStyles);
-            }
-        }
-    }, [serverSide]);
+const ThemeProvider = ({ children }) => {
 
     return (
         <MUIThemeProvider theme={theme}>
