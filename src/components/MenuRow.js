@@ -6,9 +6,9 @@ import {
 	makeStyles,
 } from '@material-ui/core';
 
-import Typography from './../ui/src/typography/Typography'
+import Typography from './../ui/src/typography/Typography';
 
-import Section from './Section'
+import Section from '../ui/src/layout/Section';
 
 const useStyles = makeStyles((theme) => ({
 	container: {
@@ -46,15 +46,15 @@ const MenuRow = () => {
 						alignItems="center"
 					>
 						<Grid item>
-							<Link to="/home">
+							<Link to="/produits">
 								<Typography className={classes.links} variant="subtitle1">
-									Carrelages
+									Produits
                             	</Typography>
 							</Link>
 						</Grid>
 
 						<Grid item>
-							<Link to="/home">
+							<Link to="/prestations">
 								<Typography className={classes.links} variant="subtitle1">
 									Prestations
                             	</Typography>
@@ -62,7 +62,7 @@ const MenuRow = () => {
 						</Grid>
 
 						<Grid item>
-							<Link to="/home">
+							<Link to="/promotions">
 								<Typography className={classes.links} variant="subtitle1">
 									Promotions
                             	</Typography>
@@ -70,7 +70,7 @@ const MenuRow = () => {
 						</Grid>
 
 						<Grid item>
-							<Link to="/home">
+							<Link to="/à-propos">
 								<Typography className={classes.links} variant="subtitle1">
 									A propos
                             	</Typography>
@@ -78,7 +78,7 @@ const MenuRow = () => {
 						</Grid>
 
 						<Grid item>
-							<Link to="/home">
+							<Link to="/contact">
 								<Typography className={classes.links} variant="subtitle1">
 									Contact
                             	</Typography>
