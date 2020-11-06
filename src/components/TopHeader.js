@@ -52,7 +52,7 @@ const TopHeader = () => {
     const classes = useStyles();
 
     return (
-        <Section>
+        <Section style={{ paddingBottom: '8px' }}>
             <Grid className={classes.container} container>
                 <Grid
                     className={classes.square}

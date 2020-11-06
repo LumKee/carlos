@@ -6,6 +6,7 @@ import {
 } from '@material-ui/core';
 
 import Layout from '../ui/src/layout/Layout';
+import Typography from '../ui/src/typography/Typography';
 
 const ContactPage = () => (
     <>
@@ -27,7 +28,11 @@ const ContactPage = () => (
             </Helmet>
 
             <Grid container direction="column">
-                Contact
+                <Grid item>
+                    <Typography variant="h5" components="h1">
+                        Contact
+                    </Typography>
+                </Grid>
             </Grid>
         </Layout>
     </>

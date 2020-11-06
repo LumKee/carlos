@@ -12,6 +12,7 @@ const useStyles = makeStyles(theme => ({
     container: {
         height: 250,
         width: '100%',
+        margin: `${theme.spacing(4)}px 0px`,
         background: 'url(/img/promotions-bg.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',

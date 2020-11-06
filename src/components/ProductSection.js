@@ -77,7 +77,7 @@ const ProductSection = () => {
                     <Button
                         className={classes.button}
                         component={Link}
-                        to="/promotions"
+                        to="/produits"
                         variant="contained"
                         align="center"
                         size="large"

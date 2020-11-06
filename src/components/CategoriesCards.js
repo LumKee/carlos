@@ -80,7 +80,6 @@ const CategoriesCards = () => {
             >
                 <Grid
                     className={`${classes.square} ${classes.interior}`}
-                    container
                     item
                     xs={12}
                     md={6}
@@ -94,7 +93,6 @@ const CategoriesCards = () => {
 
                 <Grid
                     className={`${classes.square} ${classes.exterior}`}
-                    container
                     item
                     xs={12}
                     md={6}
