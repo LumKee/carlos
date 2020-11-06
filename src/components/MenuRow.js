@@ -12,16 +12,20 @@ import Section from '../ui/src/layout/Section';
 
 const useStyles = makeStyles((theme) => ({
 	container: {
-		height: 'auto'
+		height: 'auto',
 	},
 	logo: {
 		margin: '10px 0',
 		width: 'auto',
 		height: 34
 	},
-	links: {
+	linksComponent: {
 		color: theme.palette.common.black,
-		textDecoration: 'none'
+		textDecoration: 'none',
+		'&:hover': {
+			textDecoration: 'underline',
+			cursor: 'pointer',
+		}
 	}
 }));
 
@@ -29,7 +33,7 @@ const MenuRow = () => {
 	const classes = useStyles();
 
 	return (
-		<Section>
+		<Section style={{ paddingBottom: '32px' }}>
 			<Grid className={classes.container} container>
 				<Grid
 					className={classes.square}
@@ -46,40 +50,40 @@ const MenuRow = () => {
 						alignItems="center"
 					>
 						<Grid item>
-							<Link to="/produits">
-								<Typography className={classes.links} variant="subtitle1">
+							<Link className={classes.linksComponent} to="/produits">
+								<Typography variant="subtitle1">
 									Produits
                             	</Typography>
 							</Link>
 						</Grid>
 
 						<Grid item>
-							<Link to="/prestations">
-								<Typography className={classes.links} variant="subtitle1">
+							<Link to="/prestations" className={classes.linksComponent}>
+								<Typography variant="subtitle1">
 									Prestations
                             	</Typography>
 							</Link>
 						</Grid>
 
 						<Grid item>
-							<Link to="/promotions">
-								<Typography className={classes.links} variant="subtitle1">
+							<Link to="/promotions" className={classes.linksComponent}>
+								<Typography variant="subtitle1">
 									Promotions
                             	</Typography>
 							</Link>
 						</Grid>
 
 						<Grid item>
-							<Link to="/à-propos">
-								<Typography className={classes.links} variant="subtitle1">
+							<Link to="/à-propos" className={classes.linksComponent}>
+								<Typography variant="subtitle1">
 									A propos
                             	</Typography>
 							</Link>
 						</Grid>
 
 						<Grid item>
-							<Link to="/contact">
-								<Typography className={classes.links} variant="subtitle1">
+							<Link to="/contact" className={classes.linksComponent}>
+								<Typography variant="subtitle1">
 									Contact
                             	</Typography>
 							</Link>

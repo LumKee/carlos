@@ -45,7 +45,7 @@ const ProductCard = () => {
                     <CardMedia
                         className={classes.media}
                         image="/img/promotions-bg.jpg"
-                        title="carrelage"
+                        title="carrelage produit"
                     />
 
                     <CardContent>
@@ -55,7 +55,7 @@ const ProductCard = () => {
                         <Typography variant="body1" color="textSecondary" component="h3">
                             Petite sirène
                         </Typography>
-                        <Typography variant="h6" color="textSecondary" component="span">
+                        <Typography variant="h6" component="span">
                             18.50 €
                         </Typography>
                     </CardContent>
