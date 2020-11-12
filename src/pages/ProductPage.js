@@ -14,14 +14,14 @@ const ProductPage = () => (
     <>
         <Layout>
             <Helmet>
-                <title>Carlos : votre spécialiste du carrelage | Nos carrelages</title>
+            <title>Carlos : votre spécialiste du carrelage petite sirène | A propos</title>
                 <meta
                     name="description"
                     content="Découvrez nos carrelages haut de gamme pour votre intérieur et extérieur. Nous vous proponsons une large gamme de produits qui sauront vous satisfaire."
                 />
                 <meta
                     name="keywords"
-                    content="carlos, carrelage, carrelage petite sirène, vente, carrelage, carrelage haut de gamme, bricolage, maison carrelage, carrelage maison"
+                    content="carlos, carreau de carrelage petite sirène, carrelage, carrelage petite sirène, vente, carrelage, carrelage haut de gamme, bricolage, maison carrelage, carrelage maison"
                 />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Carlos : découvrez nos produits" />

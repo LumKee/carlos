@@ -16,14 +16,14 @@ const HomePage = () => (
     <>
         <Layout>
             <Helmet>
-                <title>Carlos : votre spécialiste du carrelage</title>
+                <title>Carlos : votre spécialiste du carrelage petite sirène</title>
                 <meta
                     name="description"
-                    content="Carlos : votre spécialiste du carrelage vous propose une large gamme de carrelage haut de gamme. Parfait pour submlimer vos intérieurs et extérieurs."
+                    content="Carlos : votre spécialiste du carrelage vous propose une large gamme de carrelage petite sirène haut de gamme. Parfait pour submlimer vos intérieurs et extérieurs."
                 />
                 <meta
                     name="keywords"
-                    content="carlos, carrelage, carrelage petite sirène, vente, carrelage, carrelage haut de gamme, bricolage, maison carrelage, carrelage maison"
+                    content="carlos, carreau de carrelage petite sirène, carrelage, carrelage petite sirène, vente, carrelage, carrelage haut de gamme, bricolage, maison carrelage, carrelage maison"
                 />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Carlos : votre spécialiste carrelage" />

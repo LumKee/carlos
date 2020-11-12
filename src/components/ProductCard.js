@@ -7,6 +7,7 @@ import {
     CardActionArea,
     CardContent,
     CardMedia,
+    Icon
 } from '@material-ui/core';
 
 import Typography from './../ui/src/typography/Typography';
@@ -33,6 +34,13 @@ const useStyles = makeStyles((theme) => ({
         height: 190,
         objectFit: 'cover'
     },
+    row: {
+        flexDirection: 'row'
+    },
+    rating: {
+        paddingTop: 4,
+        color: theme.palette.secondary.main
+    }
 }));
 
 const ProductCard = () => {
@@ -55,9 +63,20 @@ const ProductCard = () => {
                         <Typography variant="body1" color="textSecondary" component="h3">
                             Petite sirène
                         </Typography>
-                        <Typography variant="h6" component="span">
-                            18.50 €
-                        </Typography>
+
+                        <Grid container direction="row" alignItems="baseline" justify="space-between">
+                            <Grid item>
+                                <Typography variant="h6" component="span">
+                                    18.50 €
+                                </Typography>
+                            </Grid>
+
+                            <Grid item>
+                                <Icon className={classes.rating}>grade</Icon>
+                                <Icon className={classes.rating}>grade</Icon>
+                                <Icon className={classes.rating}>grade</Icon>
+                            </Grid>
+                        </Grid>
                     </CardContent>
                 </CardActionArea>
             </Card>

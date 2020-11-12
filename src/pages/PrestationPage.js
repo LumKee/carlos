@@ -12,14 +12,14 @@ const PrestationPage = () => (
     <>
         <Layout>
             <Helmet>
-                <title>Carlos : votre spécialiste du carrelage | Nos prestations</title>
+            <title>Carlos : votre spécialiste du carrelage petite sirène | A propos</title>
                 <meta
                     name="description"
                     content="Découvrez l'ensemble de notre panel de prestation. Du conseil à la pose, nous vous accompagnons tout au long de votre projet."
                 />
                 <meta
                     name="keywords"
-                    content="carlos, carrelage, carrelage petite sirène, vente, carrelage, carrelage haut de gamme, bricolage, maison carrelage, carrelage maison, prestations"
+                    content="carlos, carreau de carrelage petite sirène, carrelage, carrelage petite sirène, vente, carrelage, carrelage haut de gamme, bricolage, maison carrelage, carrelage maison, prestations"
                 />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Carlos : prestations" />

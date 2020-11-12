@@ -12,14 +12,14 @@ const ContactPage = () => (
     <>
         <Layout>
             <Helmet>
-                <title>Carlos : votre spécialiste du carrelage | Nous contacter</title>
+            <title>Carlos : votre spécialiste du carrelage petite sirène | A propos</title>
                 <meta
                     name="description"
                     content="Une suggestion ? Une question ? Prenez contact avec nous."
                 />
                 <meta
                     name="keywords"
-                    content="carlos, carrelage, carrelage petite sirène, vente, carrelage, carrelage haut de gamme, bricolage, maison carrelage, carrelage maison, contact"
+                    content="carlos, carreau de carrelage petite sirène, carrelage, carrelage petite sirène, vente, carrelage, carrelage haut de gamme, bricolage, maison carrelage, carrelage maison, contact"
                 />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Carlos : contactez-nous" />

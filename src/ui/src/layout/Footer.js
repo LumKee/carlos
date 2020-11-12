@@ -45,7 +45,7 @@ const Footer = () => {
                         <Grid container direction="column" spacing={2}>
                             <Grid item>
                                 <Typography
-                                    variant="bodySmall"
+                                    variant="bodyBold"
                                     className={classes.linksTitle}
                                 >
                                     Nos parquets
