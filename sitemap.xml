@@ -3,7 +3,37 @@
   <url>
     <loc>https://carlosmateriel.fr/</loc>
     <lastmod>2020-11-13</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://carlosmateriel.fr/produits</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlosmateriel.fr/prestations</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://carlosmateriel.fr/promotions</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://carlosmateriel.fr/à-propos</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://carlosmateriel.fr/contact</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
   </url>
 </urlset>

@@ -1,5 +1,6 @@
 {
     "name": "App",
+    "start_url": "https://carlosmateriel.fr/",
     "icons": [
         {
             "src": "favicon.ico",
